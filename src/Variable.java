@@ -4,7 +4,7 @@ public class Variable {
         String name ;
         name = "Biagi Archie fais";
 
-        int age = 19;
+       int age = 19;
         String Addres = "Sumbawa";
 
         System.out.println(name);

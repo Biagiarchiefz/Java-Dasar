@@ -3,6 +3,7 @@ public class MethodVariableArgument {
 
         sayHai("Biagi", 80, 80, 80, 50, 60);
 
+
     }
      static void sayHai(String name, int... values){
         var total = 0;
@@ -16,5 +17,7 @@ public class MethodVariableArgument {
         }else {
             System.out.println("Maaf " + name +", Tidak Anda Lulus");
         }
+
+
     }
 }

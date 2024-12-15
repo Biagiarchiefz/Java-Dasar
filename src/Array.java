@@ -1,5 +1,7 @@
 public class Array {
     public static void main(String[] args) {
+
+
         String[] stringarray = new String[3];
         stringarray[0] = "Biagi";
         stringarray[1] = "Archie";
@@ -13,12 +15,8 @@ public class Array {
         /**
          * Array di dalam array
          */
-        String[][] members = {
-                {"Eko", "Kurniawan3"},
-                {"Budi", "Archie19"},
-                {"Joko"}
-        };
-        System.out.println(members[0][1]);
+        String[][] members = { {"Eko", "Kurniawan3"}, {"Budi", "Archie19"}, {"Joko"} };
+        System.out.println(members[0][0]);
         System.out.println(members[1][1]);
 
 
