@@ -1,6 +1,7 @@
 public class MethodVariableArgument {
     public static void main(String[] args) {
 
+
         sayHai("Biagi", 80, 80, 80, 50, 60);
 
 
@@ -16,7 +17,10 @@ public class MethodVariableArgument {
             System.out.println("Selamat " + name +", Anda Lulus");
         }else {
             System.out.println("Maaf " + name +", Tidak Anda Lulus");
+
         }
+
+         System.out.println("hello");
 
 
     }
